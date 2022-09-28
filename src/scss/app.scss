@@ -27,3 +27,30 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+
+.navbar-menu{
+  background-color: pink;
+  width: 100px;
+  height: 150px;
+  display: none;
+}
+
+.navbar-burger{
+  background-color: lightcoral;
+  width: 100px;
+  height: 150px;
+  display: none;
+}
+
+@media screen and (max-device-width: 600px){
+  .navbar-burger{
+    display: inline;
+  }
+}
+
+@media screen and (min-device-width: 600px) {
+  .navbar-menu{
+    display: inline;
+  }
+}
